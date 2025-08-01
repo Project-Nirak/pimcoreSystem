@@ -4,6 +4,8 @@
 
 #### [Configuration] 
 - The `pimcore.maintenance.housekeeping.cleanup_tmp_files_atime_older_than` parameter which was previously unused is now used to delete system temp files (var/tmp), with the default retention period of 1 day.
+#### [Twig]
+- Bumped minimum requirement of `twig/twig` to `^3.21.0`.
 
 ## Pimcore 12.1.0
 
